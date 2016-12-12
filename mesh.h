@@ -22,10 +22,6 @@ struct MeshConfig {
 class Mesh {
     private:
         Mat data;
-        Vec up;
-        Vec down;
-        Vec left;
-        Vec right;
         PointUi leftDownCorner;
         PointUi rightUpCorner;
         std::vector<std::vector<PointD> >  pointCache;
